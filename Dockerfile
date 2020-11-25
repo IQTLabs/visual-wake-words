@@ -8,6 +8,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/tensorflow/models.git 
 
-RUN pip install contextlib2 Pillow tf_slim
+RUN pip install contextlib2 Pillow tf_slim tensorflowjs
 
 ENV PYTHONPATH "${PYTHONPATH}:/tf/models/research/slim"
