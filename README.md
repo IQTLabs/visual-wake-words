@@ -45,7 +45,7 @@ tensorboard --log_dir=/tf/training/
 If you goto **port 6006** of the machine where the container is running in a browser, the Tensorboard app should pop up.
 
 ## Web App - Model Explorer
-The **(web-object-detector/)[web-object-detector/]** folder contains a small, react based, web app that lets you try out different VWW models in your browser using Tensorflow JS. The models for detecting cars, apples, dogs and bicycles are included. This app can be easily extended to support additional models. It is based on (create-react-app)[https://reactjs.org/docs/create-a-new-react-app.html] and the standard commands can be used to build and serve the app. Refer to the (readme)[web-object-detector/README.md] for more information.
+The **[web-object-detector/](web-object-detector/)** folder contains a small, react based, web app that lets you try out different VWW models in your browser using Tensorflow JS. The models for detecting cars, apples, dogs and bicycles are included. This app can be easily extended to support additional models. It is based on [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) and the standard commands can be used to build and serve the app. Refer to the [readme](web-object-detector/README.md) for more information.
 
 
 ## Additional References

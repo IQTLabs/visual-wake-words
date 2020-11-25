@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Adding models
-The VWW models that were built using the `tensorflowjs_converter` command in the Jupyter notebook, were moved into the **(public/)[public]** directory. You can add any additional models you build into this directory. Then modify *(App.js)[src/App.js]* to include the new models, in this section:
+The VWW models that were built using the `tensorflowjs_converter` command in the Jupyter notebook, were moved into the **[public/](public)** directory. You can add any additional models you build into this directory. Then modify *[App.js](src/App.js)* to include the new models, in this section:
 ````
           <select value={modelURL} onChange={handleChange}>
             <option value="vww_128_color_bicycle_005_web_model/model.json">🚲 Bicycle</option>
