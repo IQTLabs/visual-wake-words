@@ -2,6 +2,7 @@
   "name": "object-detector",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iqtlabs.github.io/visual-wake-words/",
   "dependencies": {
     "@tensorflow/tfjs": "^2.7.0",
     "@testing-library/jest-dom": "^5.11.4",
