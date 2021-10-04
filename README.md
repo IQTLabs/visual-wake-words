@@ -40,7 +40,7 @@ sudo docker exec -it vww-jupyter  /bin/bash
 ### Tensorboard
 If you wish to monitor the progress of a model being trained, Tensorboard provides a nice visualization of different metrics. To launch it, use the command above to attach to the running container and then run the following:
 ````
-tensorboard --log_dir=/tf/training/
+tensorboard --logdir=/tf/training/ --bind_all
 ````
 If you goto **port 6006** of the machine where the container is running in a browser, the Tensorboard app should pop up.
 
